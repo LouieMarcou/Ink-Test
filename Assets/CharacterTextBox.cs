@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CharacterTextBox : MonoBehaviour
 {
     public string Name;
-    [SerializeField] Text mTextOverHead;
+    [SerializeField] TMP_Text mTextOverHead;
     Transform mTransform;
     Transform mTextOverTransform;
     void Awake()
@@ -14,7 +15,7 @@ public class CharacterTextBox : MonoBehaviour
         mTransform = transform;
         mTextOverTransform = mTextOverHead.transform;
     }
-    
+
     public void MoveText()
     {
         Vector3 screenPos = Camera.main.WorldToScreenPoint(mTransform.position);
@@ -29,10 +30,5 @@ public class CharacterTextBox : MonoBehaviour
         //// add a tiny bit of height?
         //screenPos.y += 2; // adjust as you see fit.
         //mTextOverTransform.position = screenPos;
-    }
-
-    public void SetTextTransform(Transform newCharacterTransform)
-    {
-        mTextOverTransform = newCharacterTransform;
     }
 }

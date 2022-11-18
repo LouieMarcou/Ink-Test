@@ -1,10 +1,5 @@
-# CHORD Commander
-# Dolph
-# 7A
-# Grugg
-# The Prof.
 CHORD Commander: “It is no secret to the citizens of Metronomia that a temporal threat is malforming this world. However, to most of you here this world and its problems did not exist until a few moments ago.” # CHORD Commander
-Dolph: “We have read through your information. You three and myself are best suited for this mission of restoring peace - defeating the evil being causing this.” # Dolph
+Dolph: “We have read through your information. You three and myself are best suited for this mission of restoring peace - defeating the evil being causing this.” # Dolph # CHORD Commander # 7A Grugg The Prof.
 7A: “Take me back to them! They needed my help! Why did you handcuff me!? Hellooo!?” # 7A
 Grugg: *Shakes back in forth, nonverbally saying no!*  (Note: move the character model back and forth, maybe the text box as well?) # Grugg
 7A: “Why the hell not!? Did you not see them!? Any of you!? What the hell is wrong with you all!?” # 7A
