@@ -13,7 +13,7 @@ public class CharacterTextBox : MonoBehaviour
     void Awake()
     {
         mTransform = transform;
-        mTextOverTransform = mTextOverHead.transform;
+        //mTextOverTransform = mTextOverHead.transform;
     }
 
     public void MoveText()
